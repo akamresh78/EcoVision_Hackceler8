@@ -1,64 +1,73 @@
-# 🌱 EcoVision – AI-Powered Smart Farming Assistant  
+# Welcome to your Lovable project
 
-EcoVision is an AI-powered web platform designed to help farmers detect crop diseases, optimize fertilizer use, and adopt sustainable farming practices. It aims to empower rural farmers with real-time, accessible, and eco-friendly solutions to improve crop yield and reduce environmental harm.  
+## Project info
 
----
+**URL**: https://lovable.dev/projects/8eab5e65-4098-4e8e-b3ea-cb08ee71997f
 
-## 🚜 Problem Statement  
-Agriculture faces multiple challenges:  
-- Crop diseases & pest attacks  
-- Unpredictable weather conditions  
-- Inefficient fertilizer usage  
-- Lack of timely expert guidance  
+## How can I edit this code?
 
-Farmers, especially in rural areas, rely on traditional farming methods that often overuse chemical fertilizers and pesticides, leading to soil degradation, reduced yields, and economic losses.  
+There are several ways of editing your application.
 
----
+**Use Lovable**
 
-## 💡 Our Solution  
-EcoVision provides:  
+Simply visit the [Lovable Project](https://lovable.dev/projects/8eab5e65-4098-4e8e-b3ea-cb08ee71997f) and start prompting.
 
-### 🌾 AI-Powered Crop Disease & Pest Detection  
-- Farmers upload crop leaf/fruit images  
-- AI model identifies disease/pest with a **confidence score** (e.g., *"Early blight detected with 92% confidence"*)  
+Changes made via Lovable will be committed automatically to this repo.
 
-### 🌿 Eco-Friendly Recommendations  
-- Suggests **organic pesticides** and minimal-chemical alternatives  
-- Provides **dosage & frequency** for safe application  
+**Use your preferred IDE**
 
-### 🧪 Fertilizer Optimization  
-- Farmer inputs crop type & soil conditions  
-- System recommends **balanced fertilizer usage** to prevent overuse  
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-### 🌍 Multilingual & Inclusive  
-- Content available in **regional languages** (Google Translate API)  
-- **Voice instructions** for illiterate farmers  
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-### 📊 Farmer Dashboard  
-- History of diagnoses  
-- Tracks improvements over time  
-- Seasonal reports for better planning  
+Follow these steps:
 
----
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-## 🛠️ Tech Stack  
-| Layer        | Technology |
-|-------------|-----------|
-| **Frontend** | React.js + Tailwind CSS |
-| **Backend**  | Flask + Node.js |
-| **Database** | MongoDB + Firebase |
-| **AI/ML**    | TensorFlow + Flask integration |
-| **APIs**     | OpenWeatherMap (weather), Google Translate / Microsoft Translator, Google Cloud Speech / Azure Cognitive Services |
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
----
+# Step 3: Install the necessary dependencies.
+npm i
 
-## 📐 Architecture Overview  
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
 
-```mermaid
-graph TD
-A[Farmer Uploads Image] --> B[Flask + TensorFlow Model]
-B --> C[AI Model Identifies Disease/Pest]
-C --> D[Backend (Node.js)]
-D --> E[Database (MongoDB + Firebase)]
-E --> F[Farmer Dashboard]
-D --> G[API Integrations - Weather, Translate, Speech]
+**Edit a file directly in GitHub**
+
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
+
+**Use GitHub Codespaces**
+
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
+
+## What technologies are used for this project?
+
+This project is built with:
+
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
+## How can I deploy this project?
+
+Simply open [Lovable](https://lovable.dev/projects/8eab5e65-4098-4e8e-b3ea-cb08ee71997f) and click on Share -> Publish.
+
+## Can I connect a custom domain to my Lovable project?
+
+Yes, you can!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
