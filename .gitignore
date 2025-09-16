@@ -1,0 +1,4 @@
+backend/.venv/
+backend/.venv311/
+**/__pycache__/
+**/*.pyc
