@@ -1,0 +1,139 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smart Farming Assistant Design System - Agricultural Theme */
+
+@layer base {
+  :root {
+    /* Agricultural color palette */
+    --background: 120 20% 98%;
+    --foreground: 120 15% 12%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 120 15% 12%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 120 15% 12%;
+
+    /* Primary: Rich forest green */
+    --primary: 120 45% 25%;
+    --primary-foreground: 0 0% 98%;
+
+    /* Secondary: Fresh leaf green */
+    --secondary: 110 35% 85%;
+    --secondary-foreground: 120 45% 25%;
+
+    /* Muted: Soft sage */
+    --muted: 120 15% 93%;
+    --muted-foreground: 120 10% 45%;
+
+    /* Accent: Vibrant growth green */
+    --accent: 115 50% 45%;
+    --accent-foreground: 0 0% 98%;
+
+    /* Destructive: Warm warning orange */
+    --destructive: 25 85% 55%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 120 15% 88%;
+    --input: 120 15% 88%;
+    --ring: 115 50% 45%;
+
+    --radius: 0.75rem;
+
+    /* Agricultural gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(120 45% 25%), hsl(115 50% 45%));
+    --gradient-hero: linear-gradient(135deg, hsl(120 45% 25%) 0%, hsl(115 50% 35%) 50%, hsl(110 55% 45%) 100%);
+    --gradient-card: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(120 20% 97%) 100%);
+
+    /* Shadows with agricultural theme */
+    --shadow-soft: 0 4px 20px -4px hsl(120 45% 25% / 0.15);
+    --shadow-medium: 0 8px 30px -6px hsl(120 45% 25% / 0.2);
+    --shadow-strong: 0 16px 40px -8px hsl(120 45% 25% / 0.25);
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-spring: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    /* Dark agricultural theme */
+    --background: 120 15% 8%;
+    --foreground: 120 20% 92%;
+
+    --card: 120 15% 10%;
+    --card-foreground: 120 20% 92%;
+
+    --popover: 120 15% 10%;
+    --popover-foreground: 120 20% 92%;
+
+    /* Primary: Bright growth green for dark mode */
+    --primary: 115 55% 55%;
+    --primary-foreground: 120 15% 8%;
+
+    /* Secondary: Dark sage */
+    --secondary: 120 15% 18%;
+    --secondary-foreground: 120 20% 92%;
+
+    /* Muted: Dark forest */
+    --muted: 120 15% 15%;
+    --muted-foreground: 120 15% 65%;
+
+    /* Accent: Vibrant green */
+    --accent: 115 55% 50%;
+    --accent-foreground: 120 15% 8%;
+
+    /* Destructive: Warning orange for dark */
+    --destructive: 25 90% 65%;
+    --destructive-foreground: 120 15% 8%;
+
+    --border: 120 15% 20%;
+    --input: 120 15% 20%;
+    --ring: 115 55% 55%;
+
+    /* Dark mode gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(115 55% 55%), hsl(110 60% 60%));
+    --gradient-hero: linear-gradient(135deg, hsl(120 15% 8%) 0%, hsl(115 55% 25%) 50%, hsl(110 60% 35%) 100%);
+    --gradient-card: linear-gradient(180deg, hsl(120 15% 10%) 0%, hsl(120 15% 12%) 100%);
+
+    /* Dark shadows */
+    --shadow-soft: 0 4px 20px -4px hsl(0 0% 0% / 0.3);
+    --shadow-medium: 0 8px 30px -6px hsl(0 0% 0% / 0.4);
+    --shadow-strong: 0 16px 40px -8px hsl(0 0% 0% / 0.5);
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}

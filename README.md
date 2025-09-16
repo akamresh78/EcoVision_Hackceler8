@@ -1,73 +1,35 @@
-# Welcome to your Lovable project
+# 🌱 EcoVision – AI-Powered Smart Farming Assistant  
 
-## Project info
+EcoVision is an AI-powered web platform designed to help farmers detect crop diseases, optimize fertilizer use, and adopt sustainable farming practices. It aims to empower rural farmers with real-time, accessible, and eco-friendly solutions to improve crop yield and reduce environmental harm.  
 
-**URL**: https://lovable.dev/projects/8eab5e65-4098-4e8e-b3ea-cb08ee71997f
+---
 
-## How can I edit this code?
+## 🚜 Problem Statement  
+Agriculture faces multiple challenges:  
+- Crop diseases & pest attacks  
+- Unpredictable weather conditions  
+- Inefficient fertilizer usage  
+- Lack of timely expert guidance  
 
-There are several ways of editing your application.
+Farmers, especially in rural areas, rely on traditional farming methods that often overuse chemical fertilizers and pesticides, leading to soil degradation, reduced yields, and economic losses.  
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/8eab5e65-4098-4e8e-b3ea-cb08ee71997f) and start prompting.
+## 💡 Our Solution  
+EcoVision provides:  
 
-Changes made via Lovable will be committed automatically to this repo.
+### 🌾 AI-Powered Crop Disease & Pest Detection  
+- Farmers upload crop leaf/fruit images  
+- AI model identifies disease/pest with a **confidence score** (e.g., *"Early blight detected with 92% confidence"*)  
 
-**Use your preferred IDE**
+### 🌿 Eco-Friendly Recommendations  
+- Suggests **organic pesticides** and minimal-chemical alternatives  
+- Provides **dosage & frequency** for safe application  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 🧪 Fertilizer Optimization  
+- Farmer inputs crop type & soil conditions  
+- System recommends **balanced fertilizer usage** to prevent overuse  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/8eab5e65-4098-4e8e-b3ea-cb08ee71997f) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+### 🌍 Multilingual & Inclusive  
+- Content available in **regional languages** (Google Translate API)  
+- **Voice instructions** for illiterate farmers
