@@ -4,7 +4,7 @@ EcoVision is an AI-powered web platform designed to help farmers detect crop dis
 
 ---
 
-## 🚜 Problem Statement  
+## 🚜 Problem Statements
 Agriculture faces multiple challenges:  
 - Crop diseases & pest attacks  
 - Unpredictable weather conditions  
