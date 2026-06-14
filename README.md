@@ -20,7 +20,7 @@ EcoVision provides:
 
 ### 🌾 AI-Powered Crop Disease & Pest Detection  
 - Farmers upload crop leaf/fruit images  
-- AI model identifies disease/pest with a **confidence score** (e.g., *"Early blight detected with 92% confidence"*)  
+- AI model identifies disease/pest with a **confidence score** (e.g. *"Early blight detected with 92% confidence"*)  
 
 ### 🌿 Eco-Friendly Recommendations  
 - Suggests **organic pesticides** and minimal-chemical alternatives  
